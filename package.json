@@ -1,9 +1,9 @@
 {
-  "name": "enPiT-everi",
+  "name": "parcel-bug-20180121",
   "version": "1.0.0",
   "description": "Website for enPiT everi",
   "main": "index.js",
-  "repository": "git@github.com:zacky1972/enPiT-everi.git",
+  "repository": "git@github.com:zacky1972/parcel-bug-20180121.git",
   "author": "Susumu Yamazaki <zacky1972@gmail.com>",
   "dependencies": {
     "gulp": "^3.9.1",
@@ -11,5 +11,6 @@
     "gulp-parcel": "^0.3.3",
     "jquery": "^3.3.0",
     "parcel-bundler": "^1.4.1"
-  }
+  },
+  "license": "MIT"
 }
