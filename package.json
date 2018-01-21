@@ -15,9 +15,9 @@
   "scripts": {
     "setup": "bundle install && yarn install",
     "build": "bundle exec middleman build && yarn fix-html && yarn bundle",
-    "fix-html": "sed -i '' 's/=\"[/]\\([^/]\\)/\".\\/\\1/g' build/index.html",
+    "fix-html": "sed -i '' 's/=\"[/]\\([^/]\\)/=\".\\/\\1/g' build/index.html",
     "bundle": "yarn parcel build build/index.html --no-minify --out-dir dist --public-url ./",
-    "dev": "yarn parcel build/index.html --out-dir dist --public-url ./"
+    "dev": "yarn parcel index.html --out-dir dist --public-url ./"
   },
   "license": "MIT"
 }
